@@ -5,14 +5,14 @@ const btnMinus = span.previousElementSibling;
 const btnPlus = span.nextElementSibling;
 
 btnMinus.addEventListener("click", makeDecrement);
-btnPlus.addEventListener("click", makeIncrement)
+btnPlus.addEventListener("click", makeIncrement);
 
-function makeDecrement(){
-    counterValue -= 1;
-    span.textContent = counterValue;
+function makeDecrement() {
+  counterValue -= 1;
+  span.textContent = counterValue;
 }
 
-function makeIncrement(){
-    counterValue += 1;
-    span.textContent = counterValue;
+function makeIncrement() {
+  counterValue += 1;
+  span.textContent = counterValue;
 }

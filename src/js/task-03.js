@@ -21,4 +21,3 @@ const items = images
   )
   .join("");
 list.insertAdjacentHTML("beforeend", items);
-
